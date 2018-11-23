@@ -1,0 +1,25 @@
+{
+  "name": "load-balancer-discovery",
+  "version": "1.0.0",
+  "description": "Load balancer using restify with service discovery processes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "Muhammad Harits Syaifulloh",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "restify": "^7.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0"
+  }
+}
